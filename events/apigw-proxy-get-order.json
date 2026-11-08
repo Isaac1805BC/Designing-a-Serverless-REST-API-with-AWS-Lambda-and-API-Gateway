@@ -1,0 +1,31 @@
+{
+  "resource": "/orders/{id}",
+  "path": "/orders/ORD-42",
+  "httpMethod": "GET",
+  "headers": {
+    "Accept": "*/*",
+    "Host": "abc123.execute-api.us-east-1.amazonaws.com",
+    "User-Agent": "curl/8.4.0",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "multiValueHeaders": {
+    "Accept": ["*/*"],
+    "Host": ["abc123.execute-api.us-east-1.amazonaws.com"]
+  },
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "pathParameters": { "id": "ORD-42" },
+  "stageVariables": null,
+  "requestContext": {
+    "resourcePath": "/orders/{id}",
+    "httpMethod": "GET",
+    "path": "/b/orders/ORD-42",
+    "stage": "b",
+    "requestId": "c6af9ac6-7b61-11e6-9a41-93e8deadbeef",
+    "identity": { "sourceIp": "203.0.113.10", "userAgent": "curl/8.4.0" },
+    "apiId": "abc123"
+  },
+  "body": null,
+  "isBase64Encoded": false
+}

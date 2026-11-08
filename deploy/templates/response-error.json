@@ -1,0 +1,3 @@
+{
+  "application/json": "#set($m = $input.path('$.errorMessage'))$m.substring($m.indexOf(']') + 2)"
+}

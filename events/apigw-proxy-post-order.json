@@ -1,0 +1,21 @@
+{
+  "resource": "/orders",
+  "path": "/orders",
+  "httpMethod": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "Host": "abc123.execute-api.us-east-1.amazonaws.com",
+    "User-Agent": "curl/8.4.0"
+  },
+  "queryStringParameters": null,
+  "pathParameters": null,
+  "requestContext": {
+    "resourcePath": "/orders",
+    "httpMethod": "POST",
+    "path": "/b/orders",
+    "stage": "b",
+    "apiId": "abc123"
+  },
+  "body": "{\"customerId\":\"CUST-42\",\"product\":\"MacBook Air\",\"quantity\":1}",
+  "isBase64Encoded": false
+}
